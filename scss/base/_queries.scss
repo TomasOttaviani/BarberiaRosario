@@ -105,3 +105,235 @@
         height: 20px;
     }
 }
+
+@media screen and (max-width: 550px) {
+    footer .coso-izq img {
+        height: 130px;
+    }
+
+    footer .coso-der img {
+        height: 130px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .hero {
+        height: 300px;
+    }
+
+    .principal-servicios {
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .principal-servicios p {
+        width: 80%;
+        color: white;
+    }
+
+    .principal-servicios a {
+        width: 250px;
+        height: 250px;
+    }
+
+
+    .principal-productos {
+        height: 350px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .principal-productos p {
+        width: 50%;
+        color: white;
+    }
+
+    .principal-productos a {
+        width: 250px;
+        height: 250px;
+    }
+
+
+    .principal-nosotros {
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .principal-nosotros p {
+        width: 50%;
+        color: white;
+    }
+
+    .principal-nosotros a {
+        width: 250px;
+        height: 250px;
+    }
+
+    footer {
+        padding-top: 25px;
+        height: 175px;
+        display: block;
+    }
+
+    footer .redes {
+        text-align: center;
+    }
+
+    footer .coso-izq img {
+        display: none;
+    }
+
+    footer .coso-der img {
+        display: none;
+    }
+
+    footer .redes div h2 {
+        font-size: 20px;
+    }
+
+    footer .direccion h3 {
+        font-size: 20px;
+    }
+
+    footer .redes div a img {
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+
+    .servicios .servicios-principal .tarjetas-servicios div {
+        width: 300px;
+    }
+
+    .servicios .servicios-principal .tarjetas-servicios div h2 {
+        font-size: 20px;
+    }
+
+    .servicios .servicios-principal .tarjetas-servicios div p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .servicios .servicios-principal .tarjetas-servicios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicios .servicios-principal .tarjetas-servicios div {
+        margin: 20px;
+    }
+
+}
+
+@media screen and (max-width: 530px) {
+    .main-sacarTurno section form {
+        width: 200px;
+    }
+
+    .main-sacarTurno section form textarea {
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .productos section .titulo-productos h2 {
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+    }
+
+    .productos section .titulo-productos h3 {
+        color: grey;
+        font-size: 50px;
+    }
+
+    .productos section .tarjetas-total .tarjeta div img {
+        height: 100px;
+    }
+
+    .productos section .tarjetas-total .tarjeta {
+        width: 400px;
+        height: 200px;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .productos section .tarjetas-total .tarjeta .tarjeta-descripcion h2 {
+        font-size: 20px;
+    }
+
+    .productos section .tarjetas-total .tarjeta .tarjeta-descripcion h3 {
+        font-size: 20px;
+    }
+
+    .productos section .tarjetas-total .tarjeta .tarjeta-descripcion p {
+        font-size: 12px;
+    }
+
+    .productos section .tarjetas-total .tarjeta .tarjeta-descripcion button {
+        font-size: 15px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .productos section .tarjetas-total .tarjeta {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .main-nosotros section .nosotros .nosotros-tarjetas img {
+        height: 250px;
+    }
+
+    .main-nosotros section .nosotros .nosotros-tarjetas {
+        width: 300px;
+        text-align: center;
+    }
+
+    .main-nosotros section .nosotros .nosotros-tarjetas h2 {
+        font-size: 30px;
+    }
+
+    .main-nosotros section .nosotros .nosotros-tarjetas p {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+    .main-nosotros section .nosotros .nosotros-tarjetas img {
+        height: 100px;
+    }
+
+    .main-nosotros section .nosotros .nosotros-tarjetas {
+        width: 300px;
+        text-align: center;
+    }
+
+    .main-nosotros section .nosotros .nosotros-tarjetas h2 {
+        font-size: 20px;
+    }
+
+    .main-nosotros section .nosotros .nosotros-tarjetas p {
+        font-size: 15px;
+    }
+
+    .main-nosotros section .nosotros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

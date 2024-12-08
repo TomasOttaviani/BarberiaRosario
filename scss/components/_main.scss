@@ -19,26 +19,23 @@
 
     }
 
-    div {
-        h3 {}
+}
 
-    }
+.botonreserva {
+    text-align: center;
+    font-family: fantasy;
+    margin-top: 15px;
 
-    .botonreserva {
-        text-align: center;
-        font-family: fantasy;
-        margin-top: 15px;
+    a {
+        color: rgb(0, 0, 0);
+        background-color: rgba(255, 217, 0, 0.5);
+        font-size: 60px;
+        border-radius: 30px;
+        padding: 10px;
 
-        a {
-            color: rgb(0, 0, 0);
-            background-color: rgba(255, 217, 0, 0.5);
-            font-size: 60px;
-            border-radius: 30px;
-            padding: 10px;
-
-        }
     }
 }
+
 
 .principal-servicios {
     background: linear-gradient(to bottom, #000000, #001cb8);
@@ -233,8 +230,6 @@
                     font-style: normal;
                 }
 
-                img {}
-
                 p {
                     font-size: 20px;
                     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -244,14 +239,119 @@
     }
 }
 
+.productos {
+    background: linear-gradient(to bottom, #000000, #8a0000);
+
+    section {
+        .titulo-productos {
+            text-align: center;
+            font-family: "Lobster", sans-serif;
+            font-style: normal;
+
+            h2 {
+                color: rgb(255, 255, 255);
+                font-size: 60px;
+
+            }
+
+            h3 {
+                color: grey;
+                font-size: 90px;
+
+            }
+        }
+    }
+
+    section {
+        .tarjetas-total {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .tarjeta {
+                display: flex;
+                align-items: center;
+                width: 800px;
+                height: 400px;
+                background-color: rgba(255, 255, 255, 0.11);
+                margin: 10px;
+                padding: 10px;
+                -webkit-box-shadow: 17px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 17px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                box-shadow: 17px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
+                div {
+                    img {
+                        height: 200px;
+                    }
+                }
+
+                .tarjeta-descripcion {
+                    h2 {
+                        color: white;
+                        font-size: 40px;
+                        font-family: "Lobster", sans-serif;
+                        font-style: normal;
+                    }
+
+                    p {
+                        color: rgb(0, 0, 0);
+                        font-size: 25px;
+                    }
+
+                    h3 {
+                        color: gold;
+                        font-size: 40px;
+                    }
+
+                    button {
+                        padding: 10px;
+                        background-color: #28a745;
+                        color: white;
+                        border: none;
+                        border-radius: 5px;
+                        text-align: center;
+                        background-color: #000000;
+                        font-size: 30px;
+                        width: 300px;
+                        font-family: cursive;
+                    }
+                }
+            }
+        }
+    }
+}
+
 .main-nosotros {
-    .nosotros {
-        .nosotros-tarjetas {
-            img {}
+    background: linear-gradient(to bottom, #000000, #8a0000);
 
-            h2 {}
+    section {
+        .nosotros {
+            display: flex;
+            justify-content: space-around;
 
-            p {}
+            .nosotros-tarjetas {
+                width: 600px;
+                text-align: center;
+
+                img {
+                     height: 500px;
+
+                }
+
+                h2 {
+                    color: white;
+                    font-size: 50px;
+                    font-family: "Lobster", sans-serif;
+                    font-style: normal;
+                }
+
+                p {
+                    color: rgb(133, 133, 133);
+                    font-size: 40px;
+                }
+            }
         }
     }
 }

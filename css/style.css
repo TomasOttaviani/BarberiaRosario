@@ -186,6 +186,7 @@ header nav ul {
     background-blend-mode: overlay;
 }
 
+
 footer {
     padding-top: 50px;
     height: 350px;
@@ -416,9 +417,9 @@ button {
     background: linear-gradient(to bottom, #000000, #8a0000);
 }
 
-.nosotros img {
+/* .nosotros img {
     height: 500px;
-}
+} */
 
 .nosotros-tarjetas {
     width: 600px;

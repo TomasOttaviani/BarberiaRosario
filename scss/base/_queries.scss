@@ -1,0 +1,107 @@
+@media screen and (max-width: 900px) {
+
+    header a h1 {
+        font-size: 40px;
+    }
+
+    header nav ul li {
+        font-size: 15px;
+        margin: 10px 10px 10px 10px;
+        border: 2px outset;
+        background-color: rgb(0, 0, 0);
+        padding: 5px;
+    }
+
+    .hero {
+        height: 400px;
+    }
+
+    .hero h2 {
+        font-size: 20px;
+    }
+
+
+    .hero .botonreserva a {
+        font-size: 30px;
+        padding: 5px;
+    }
+
+    .hero .botonreserva div {
+        padding: 10px;
+    }
+
+    .principal-servicios {
+        height: 175px;
+    }
+
+    .principal-servicios p {
+        font-size: 30px;
+        width: 250px;
+    }
+
+    .principal-servicios a {
+        border: 2.5px dashed #000000;
+        width: 150px;
+        height: 150px;
+        background-size: contain;
+    }
+
+
+    .principal-productos {
+        height: 175px;
+    }
+
+    .principal-productos p {
+        font-size: 30px;
+        width: 250px;
+    }
+
+    .principal-productos a {
+        border: 2.5px dashed #000000;
+        width: 150px;
+        height: 150px;
+        background-size: contain;
+    }
+
+
+    .principal-nosotros {
+        height: 175px;
+    }
+
+    .principal-nosotros p {
+        font-size: 30px;
+        width: 250px;
+    }
+
+    .principal-nosotros a {
+        border: 2.5px dashed #000000;
+        width: 150px;
+        height: 150px;
+        background-size: contain;
+    }
+
+    footer {
+        padding-top: 25px;
+        height: 175px;
+    }
+
+    footer .coso-izq img {
+        height: 175px;
+    }
+
+    footer .coso-der img {
+        height: 175px;
+    }
+
+    footer .redes div h2 {
+        font-size: 15px;
+    }
+
+    footer .direccion h3 {
+        font-size: 15px;
+    }
+
+    footer .redes div a img {
+        height: 20px;
+    }
+}

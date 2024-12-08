@@ -186,10 +186,6 @@ header nav ul {
     background-blend-mode: overlay;
 }
 
-hr {
-    border: 3px solid black;
-}
-
 footer {
     padding-top: 50px;
     height: 350px;
@@ -789,6 +785,7 @@ button {
     .nosotros-tarjetas p {
         font-size: 15px;
     }
+
     .nosotros {
         display: flex;
         flex-direction: column;

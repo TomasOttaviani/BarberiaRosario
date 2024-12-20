@@ -28,13 +28,17 @@ footer {
                 font-size: 30px;
                 font-family: "Lobster", sans-serif;
                 font-style: normal;
+                color: black;
             }
         }
 
         div {
             a {
-                img {
+                img {transition: 0.5s;
                     height: 40px;
+                    &:hover{
+                        transform: scale(1.2);
+                    }
                 }
             }
         }

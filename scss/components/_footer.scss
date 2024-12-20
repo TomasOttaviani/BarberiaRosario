@@ -18,17 +18,18 @@ footer {
 
     .redes {
         grid-column: 2/3;
+        @include columns (flex, column, center, none);
         text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
 
         div {
             h2 {
                 font-size: 30px;
                 font-family: "Lobster", sans-serif;
                 font-style: normal;
-                color: black;
+                color: $color-1;
             }
         }
 

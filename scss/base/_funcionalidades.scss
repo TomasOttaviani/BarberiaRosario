@@ -1,3 +1,19 @@
+//* variables
 $color-1: black;
 $color-2: white;
 $color-3: grey;
+
+//* mixin
+
+@mixin flex ($flex, $justify, $aling) {
+    display: $flex;
+    justify-content: $justify;
+    align-items: $aling;
+}
+
+@mixin columns ($flex, $column, $justify, $aling) {
+    display: $flex;
+    flex-direction: $column;
+    justify-content: $justify;
+    align-items: $aling;
+}

@@ -1,8 +1,9 @@
 header {
     background: linear-gradient(to bottom, #000000c4, #000000, #000000);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include columns (flex, column, none, center);
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
     font-family: "Merriweather", serif;
     font-weight: 300;
     font-style: normal;

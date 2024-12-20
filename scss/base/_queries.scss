@@ -123,9 +123,10 @@
 
     .principal-servicios {
         height: 350px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
+        @include columns (flex, column, space-around, none);
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: space-around;
     }
 
     .principal-servicios p {
@@ -141,8 +142,9 @@
 
     .principal-productos {
         height: 350px;
-        display: flex;
-        flex-direction: column-reverse;
+        @include columns (flex, column-reverse, none, none);
+        // display: flex;
+        // flex-direction: column-reverse;
     }
 
     .principal-productos p {
@@ -158,9 +160,10 @@
 
     .principal-nosotros {
         height: 350px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
+        @include columns (flex, column, space-around, none)
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: space-around;
     }
 
     .principal-nosotros p {
@@ -221,9 +224,10 @@
 
 @media screen and (max-width: 1000px) {
     .servicios .servicios-principal .tarjetas-servicios {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include columns (flex, column, none, center);
+        // display: flex;
+        // flex-direction: column;
+        // align-items: center;
     }
 
     .servicios .servicios-principal .tarjetas-servicios div {
@@ -284,8 +288,9 @@
 
 @media screen and (max-width: 450px) {
     .productos section .tarjetas-total .tarjeta {
-        display: flex;
-        flex-direction: column;
+        @include columns (flex, column, none, none);
+        // display: flex;
+        // flex-direction: column;
         width: 300px;
         height: 400px;
     }
@@ -331,9 +336,10 @@
     }
 
     .main-nosotros section .nosotros {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include columns (flex, column, none, center);
+        // display: flex;
+        // flex-direction: column;
+        // align-items: center;
     }
 
 }

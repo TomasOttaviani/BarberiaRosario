@@ -5,10 +5,11 @@
     background-size: cover;
     background-position: center;
     height: 700px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    @include columns (flex, column, space-around, center);
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-around;
+    // align-items: center;
 
     h2 {
         color: $color-2;
@@ -45,9 +46,10 @@
 .principal-servicios {
     background: linear-gradient(to bottom, #000000, #001cb8);
     height: 350px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    @include flex (flex, space-around, center);
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-around;
     font-family: "Lobster", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -81,9 +83,10 @@
 .principal-productos {
     background: linear-gradient(to bottom, #001cb8, #cfcfcf);
     height: 350px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    @include flex (flex, space-around, center);
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-around;
     font-family: "Lobster", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -117,9 +120,10 @@
 .principal-nosotros {
     background: linear-gradient(to bottom, #cfcfcf, #8a0000);
     height: 350px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    @include flex (flex, space-around, center);
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-around;
     font-family: "Lobster", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -238,8 +242,9 @@
 
     .servicios-principal {
         .tarjetas-servicios {
-            display: flex;
-            justify-content: space-around;
+            @include flex (flex, space-around, none);
+            // display: flex;
+            // justify-content: space-around;
 
             div {
                 width: 400px;
@@ -291,13 +296,15 @@
     section {
         .tarjetas-total {
             text-align: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            @include columns (flex, column, none, center);
+            // display: flex;
+            // flex-direction: column;
+            // align-items: center;
 
             .tarjeta {
-                display: flex;
-                align-items: center;
+                @include flex (flex, none, center);
+                // display: flex;
+                // align-items: center;
                 width: 800px;
                 height: 600px;
                 background-color: rgba(255, 255, 255, 0.11);
@@ -358,8 +365,9 @@
 
     section {
         .nosotros {
-            display: flex;
-            justify-content: space-around;
+            @include flex (flex, space-around, none);
+            // display: flex;
+            // justify-content: space-around;
 
             .nosotros-tarjetas {
                 width: 600px;

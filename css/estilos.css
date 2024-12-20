@@ -15,6 +15,7 @@ header {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.768627451), #000000, #000000);
   display: flex;
   flex-direction: column;
+  justify-content: none;
   align-items: center;
   font-family: "Merriweather", serif;
   font-weight: 300;
@@ -94,8 +95,8 @@ header nav ul li a:hover {
   background: linear-gradient(to bottom, #000000, #001cb8);
   height: 350px;
   display: flex;
-  align-items: center;
   justify-content: space-around;
+  align-items: center;
   font-family: "Lobster", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -125,8 +126,8 @@ header nav ul li a:hover {
   background: linear-gradient(to bottom, #001cb8, #cfcfcf);
   height: 350px;
   display: flex;
-  align-items: center;
   justify-content: space-around;
+  align-items: center;
   font-family: "Lobster", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -156,8 +157,8 @@ header nav ul li a:hover {
   background: linear-gradient(to bottom, #cfcfcf, #8a0000);
   height: 350px;
   display: flex;
-  align-items: center;
   justify-content: space-around;
+  align-items: center;
   font-family: "Lobster", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -252,6 +253,7 @@ header nav ul li a:hover {
 .servicios .servicios-principal .tarjetas-servicios {
   display: flex;
   justify-content: space-around;
+  align-items: none;
 }
 .servicios .servicios-principal .tarjetas-servicios div {
   width: 400px;
@@ -292,10 +294,12 @@ header nav ul li a:hover {
   text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: none;
   align-items: center;
 }
 .productos section .tarjetas-total .tarjeta {
   display: flex;
+  justify-content: none;
   align-items: center;
   width: 800px;
   height: 600px;
@@ -345,6 +349,7 @@ header nav ul li a:hover {
 .main-nosotros section .nosotros {
   display: flex;
   justify-content: space-around;
+  align-items: none;
 }
 .main-nosotros section .nosotros .nosotros-tarjetas {
   width: 600px;
@@ -382,10 +387,11 @@ footer .coso-izq img {
 }
 footer .redes {
   grid-column: 2/3;
-  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: none;
+  text-align: center;
 }
 footer .redes div h2 {
   font-size: 30px;
@@ -516,6 +522,7 @@ footer .direccion h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: none;
   }
   .principal-servicios p {
     width: 80%;
@@ -529,6 +536,8 @@ footer .direccion h3 {
     height: 350px;
     display: flex;
     flex-direction: column-reverse;
+    justify-content: none;
+    align-items: none;
   }
   .principal-productos p {
     width: 50%;
@@ -543,6 +552,7 @@ footer .direccion h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: none;
   }
   .principal-nosotros p {
     width: 50%;
@@ -591,6 +601,7 @@ footer .direccion h3 {
   .servicios .servicios-principal .tarjetas-servicios {
     display: flex;
     flex-direction: column;
+    justify-content: none;
     align-items: center;
   }
   .servicios .servicios-principal .tarjetas-servicios div {
@@ -641,6 +652,8 @@ footer .direccion h3 {
   .productos section .tarjetas-total .tarjeta {
     display: flex;
     flex-direction: column;
+    justify-content: none;
+    align-items: none;
     width: 300px;
     height: 400px;
   }
@@ -677,6 +690,7 @@ footer .direccion h3 {
   .main-nosotros section .nosotros {
     display: flex;
     flex-direction: column;
+    justify-content: none;
     align-items: center;
   }
 }
